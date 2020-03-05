@@ -19,3 +19,6 @@
 		<li><img src="./asset/bachelor-en-design-pack-2-1.jpg" alt="" /></li>
 	</ul>
 </div>
+		<?php
+			include_once('./template/footer.php');
+		?>

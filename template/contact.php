@@ -15,4 +15,7 @@
 			<input type="submit" value="Envoyer">
 			
 		</form>
+		<?php
+			include_once('./template/footer.php');
+		?>
 </section>

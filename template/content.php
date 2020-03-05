@@ -25,6 +25,6 @@
 		<li><img src="./icones/logo_linkedin_3225190.png" alt="Instagram" /></li>
 	</ul>
 </div>
-<footer>
-	<p>&copy; - EDW - 2020</p>
-</footer>
+		<?php
+			include_once('./template/footer.php');
+		?>
