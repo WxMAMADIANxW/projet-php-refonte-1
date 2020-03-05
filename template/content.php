@@ -10,19 +10,19 @@
 <div class="grid-img">
 	<h2>Nos compus en France</h2>
 	<ul>
-		<li><img src="./asset/ambiance_01.jpg" alt="Paris" /></li>
-		<li><img src="./asset/nantes.jpg" alt="Nantes" /></li>
-		<li><img src="./asset/bordeaux.jpg" alt="Bordeaux" /></li>
+		<li><img src="./static/asset/ambiance_01.jpg" alt="Paris" /></li>
+		<li><img src="./static/asset/nantes.jpg" alt="Nantes" /></li>
+		<li><img src="./static/asset/bordeaux.jpg" alt="Bordeaux" /></li>
 	</ul>
 </div>
 <!--icones-->
 <div class="grid-icone">
 	<h2>Nous suivre</h2>
 	<ul>
-		<li><img src="./icones/logo_facebook_3225194.png" alt="FB" /></li>
-		<li><img src="./icones/logo_twitter_3225183.png" alt="Instagram" /></li>
-		<li><img src="./icones/logo_instagram_3225191.png" alt="Instagram" /></li>
-		<li><img src="./icones/logo_linkedin_3225190.png" alt="Instagram" /></li>
+		<li><img src="./static/icones/logo_facebook_3225194.png" alt="FB" /></li>
+		<li><img src="./static/icones/logo_twitter_3225183.png" alt="Instagram" /></li>
+		<li><img src="./static/icones/logo_instagram_3225191.png" alt="Instagram" /></li>
+		<li><img src="./static/icones/logo_linkedin_3225190.png" alt="Instagram" /></li>
 	</ul>
 </div>
 		<?php
