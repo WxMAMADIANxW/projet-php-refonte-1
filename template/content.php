@@ -1,4 +1,3 @@
-
 <section>
 	<h2>Présentation</h2>
 		<p>
