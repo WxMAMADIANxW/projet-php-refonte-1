@@ -1,18 +1,19 @@
 <?php
 	const titre ="EDW école pour les métiers du web";
+	const css = "./static/css/style.css";
 ?>
 
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr" dir="ltr">
 <head>
 	<meta charset="UTF-8">
 	<title><?php print titre ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Ce site est développé dans le cadre d'un prjet de bts sio">
+	<!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+	<link rel="stylesheet" href=<?php print css?> >
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-	<title><?php print title?></title>
-	<link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
 
