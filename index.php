@@ -29,13 +29,13 @@
 				//variable pour $_GET
 				$root = $_GET['page'];
 						if($root==1){
-							include_once("./template/index.html");
+							include_once("./template/content.php");
 						}
 						if($root==2){
-							include_once("./template/portfolio.html");
+							include_once("./template/portfolio.php");
 						}
 						if($root==3){
-							include_once("./template/contact.html");
+							include_once("./template/contact.php");
 						}
 						else if($root>3 || $root==0){
 							echo '<p class="warning"><i class="far fa-frown"></i> La page demandée n\'existe pas!!</p>';
@@ -44,7 +44,7 @@
 
 				}
 					else{
-						include("./template/index.html");
+						include("./template/content.php");
 					}
 
 			?>
