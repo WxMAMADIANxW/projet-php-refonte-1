@@ -16,6 +16,6 @@
 			
 		</form>
 		<?php
-			include_once('./template/footer.php');
+			include_once('./src/footer.php');
 		?>
 </section>
