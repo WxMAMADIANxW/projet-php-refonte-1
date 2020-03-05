@@ -10,17 +10,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Ce site est développé dans le cadre d'un prjet de bts sio">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	
+
+	<title><?php print title?></title>
 	<link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
 
-	<ul>
-		<li><a href="index.php?page=1">&lt;/&gt;  L'école</a></li>
-		<li><a href="index.php?page=2">&lt;/&gt; Formations</a></li>
-		<li><a href="index.php?page=3">&lt;/&gt;  Contact</a></li>
-		
-	</ul>
+	<?php include_once('./src/navigation.php');?>
 	<main>
 		<h1><?php print titre ?></h1>
 
