@@ -36,7 +36,8 @@ CREATE TABLE `eleves` (
   `prenom` varchar(120) NOT NULL,
   `telephone` int(32) NOT NULL,
   `mail` varchar(120) NOT NULL,
-  `etudes` varchar(120) NOT NULL
+  `etudes` varchar(120) NOT NULL,
+  `message`varchar(360) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

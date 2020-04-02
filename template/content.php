@@ -8,7 +8,7 @@
 		</p>
 </section>
 <div class="grid-img">
-	<h2>Nos compus en France</h2>
+	<h2>Nos campus en France</h2>
 	<ul>
 		<li><img src="./static/asset/ambiance_01.jpg" alt="Paris" /></li>
 		<li><img src="./static/asset/nantes.jpg" alt="Nantes" /></li>

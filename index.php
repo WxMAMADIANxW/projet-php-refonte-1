@@ -1,5 +1,5 @@
 <?php
-	const titre ="EDW école pour les métiers du web";
+	const titre ="&#91;M2L&#93;	 La Maison des Ligues de Lorraine";
 	const css = "./static/css/style.css";
 ?>
 
@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href=<?php print css?> >
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+
+	
 </head>
 <body>
 

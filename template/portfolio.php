@@ -14,11 +14,15 @@
 <div class="grid-img">
 	<h2>Nos formations</h2>
 	<ul>
-		<li><img src="./asset/bachelor-ecv-game-jeu.jpg" alt="" /></li>
-		<li><img src="./asset/nina_bouchaud_1-390x390.jpg" alt="" /></li>
-		<li><img src="./asset/bachelor-en-design-pack-2-1.jpg" alt="" /></li>
+		<li><img src="./static/asset/handball.jpg" alt="" /></li>
+		<li><img src="./static/asset/volley.jpg" alt="" /></li>
+		<li><img src="./static/asset/natation.jpg" alt="" /></li>
+		<li><img src="./static/asset/basket.jpg" alt="" /></li>
+		<li><img src="./static/asset/athletisme.jpg" alt="" /></li>
+		<li><img src="./static/asset/esport.jpg" alt="" /></li>
 	</ul>
 </div>
 		<?php
 			include_once('./src/footer.php');
 		?>
+

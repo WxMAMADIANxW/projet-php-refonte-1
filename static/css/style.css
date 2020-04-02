@@ -16,7 +16,7 @@ body{
 			margin:0;
 	}
 		main{
-			width:102.4rem;
+			max-width:102.4rem;
 			margin:0 auto;
 	}
 	ul{
@@ -24,7 +24,7 @@ body{
 		list-style: none;
 		padding:0;
 		font-size:0;
-		background: #222;
+		background: var(--color-primary);
 
 	}
 	a{
@@ -35,7 +35,14 @@ body{
 		line-height: 2.2rem;
 	}
 
-/*thème********/
+/*Début Thème*/
+:root{
+	--color-primary : #192a56;
+	
+
+}
+/**/
+/*  FIN Thème*/
 ul li{
 	display: inline-block;
 	font-size: 1.5rem;
@@ -73,8 +80,9 @@ section p{
 	padding:1.0rem;
 	background: #fafafa;
 }
-section h2, div h2{
-	background: #2962FF;
+
+ section h2, div h2 {
+	background: var(--color-primary);
 	padding:1.0rem;
 	line-height: 3.5rem;
 	color: #fafafa;
@@ -94,9 +102,9 @@ section h2, div h2{
 	width: 100%;
 }
 /*icones */
-.grid-icone{
+/* .grid-icone{
 	
-}
+} */
 .grid-icone > ul{
 	text-align: center;
 	background: transparent;
@@ -183,3 +191,4 @@ footer{
 	text-align: center;
 	margin-top: 1.0rem;
 }
+
